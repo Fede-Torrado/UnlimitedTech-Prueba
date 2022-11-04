@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Aileron";
     src: url("../fonts/Aileron-Regular.otf");
   }
@@ -20,7 +20,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Aileron";
-}
+} */
 
 /* ------------------Background*/
 /* body{
@@ -69,7 +69,7 @@ ul.dropdown-menu li{
 } */
 
 /* ----------------Main */
-
+/* 
 .mainContainer{
     margin:auto;
     width: 100%;
@@ -109,10 +109,10 @@ article p{
 .imgHome img{  
     width: 80%;
     min-width: 500px;
-}
+} */
 
 /* ------------------Servicios */
-.services{
+/* .services{
     width: 70%;
     display: flex;
     gap: 50px;
@@ -252,9 +252,9 @@ button{
     --bs-btn-disabled-border-color: #b71d6f;
     color: #fff;
     height: 60px;
-}
+} */
 
-.infRedesDescription {
+/* .infRedesDescription {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: #fff;
@@ -323,8 +323,8 @@ button{
     --bs-btn-disabled-border-color: #050505;
     color: #fff;
     height: 60px;
-}
-
+} */
+/* 
 .cAccesoDescription {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
@@ -343,7 +343,7 @@ button{
 }
 .iconServices{
     margin-right: 10px;
-}
+} */
 
 /* .servicios {
     position: relative;
@@ -422,7 +422,7 @@ button{
 /*----------------------------------------------------------------*/
 
 /* footer------------------- */
-footer{
+/* footer{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -462,7 +462,7 @@ footer{
     width: 40px;
     right: 230px;
     bottom: 90px;
-}    
+}     */
 
 
 
