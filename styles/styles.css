@@ -1,18 +1,27 @@
 @font-face {
     font-family: "Aileron";
-    src: url("../fonts/Aileron-Regular.otf");
+    src: url("../fonts/Aileron-Regular-webfont.ttf") format("truetype");
+    src: url("../fonts/Aileron-Regular-webfont.woff") format("woff");
   }
 @font-face {
     font-family: "Aileron-Light";
-    src: url("../fonts/Aileron-Light.otf");
+    src: url("../fonts/Aileron-Light-webfont.ttf") format("truetype");
+    src: url("../fonts/Aileron-Light-webfont.woff") format("woff");
   }
+@font-face {
+      font-family: "Aileron-SemiBold";
+      src: url("../fonts/Aileron-SemiBold-webfont.ttf") format("truetype");
+      src: url("../fonts/Aileron-SemiBold-webfont.woff") format("woff");
+    }
+@font-face {
+      font-family: "Aileron-Bold";
+      src: url("../fonts/Aileron-Bold-webfont.ttf") format("truetype");
+      src: url("../fonts/Aileron-Bold-webfont.woff") format("woff");
+    }
 @font-face {
     font-family: "Aileron-Black";
-    src: url("../fonts/Aileron-Black.otf");
-  }
-@font-face {
-    font-family: "Aileron-SemiBold";
-    src: url("../fonts/Aileron-SemiBold.otf");
+    src: url("../fonts/Aileron-Black-webfont.ttf") format("truetype");
+    src: url("../fonts/Aileron-Black-webfont.woff") format("woff");
   }
 
 * {

@@ -17,10 +17,10 @@ article{
     width: 100%;
 }
 article h1{
+    font-family: "Aileron-Bold";
     color: #fefefe;
-    font-size: 40pt;
-    line-height: 40pt;
-    font-weight: bold;
+    font-size: 35pt;
+    line-height: 30pt;
     min-width: none;
 }
 article p{
@@ -29,7 +29,7 @@ article p{
     color: #fefefe;
     font-family: "Aileron-Light";
     font-size: 12.28pt;
-    line-height: 21.7pt;
+    line-height:18.7pt;
     letter-spacing: 0.2pt;
     
 }
