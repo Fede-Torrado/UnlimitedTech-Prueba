@@ -19,16 +19,17 @@ article{
 article h1{
     color: #fefefe;
     font-size: 40pt;
-    line-height: 43pt;
+    line-height: 40pt;
     font-weight: bold;
+    min-width: none;
 }
 article p{
     width: 100%;
     margin-top: 25px;
     color: #fefefe;
     font-family: "Aileron-Light";
-    font-size: 15.28pt;
-    line-height: 24.7pt;
+    font-size: 12.28pt;
+    line-height: 21.7pt;
     letter-spacing: 0.2pt;
     
 }

@@ -22,7 +22,9 @@
     font-family: "Aileron";
 }
 
-/* ------------------Background*/
+html {
+    font-size: 10pt;
+}
 body{
     background-color:#7439D3;
 }
