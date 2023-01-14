@@ -2,7 +2,7 @@
   background-color: #efeeec;
   width: 100%;
   padding-bottom: 30px;
-  height: 70vh;
+  
 }
 .mainServices {
   display: flex;
@@ -24,13 +24,6 @@
 }
 
 .mainServices article h1 {
-  font-family: "Aileron-Bold";
-  color: #18a322;
-  font-size: 31.39pt;
-  line-height: 31.4pt;
-  margin-top: 20px;
-}
-.mainServices article h2 {
   font-family: "Aileron-Bold";
   color: #18a322;
   font-size: 31.39pt;
