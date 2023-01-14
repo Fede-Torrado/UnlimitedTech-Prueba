@@ -1,0 +1,334 @@
+/* --------------MAIN---------------------- */
+.mainContainer{
+    margin:auto;
+    width: 100%;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.main{
+    margin:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+}
+article{
+    width: 100%;
+}
+article h1{
+    font-family: "Aileron-Bold";
+    color: #fefefe;
+    font-size: 35pt;
+    line-height: 30pt;
+    min-width: none;
+}
+article p{
+    width: 100%;
+    margin-top: 25px;
+    color: #fefefe;
+    font-family: "Aileron-Light";
+    font-size: 12.28pt;
+    line-height:18.7pt;
+    letter-spacing: 0.2pt;
+    
+}
+.imgHome{
+    width: 100%;
+}
+.imgHome img{  
+    width: 100%;
+    min-width: 300px;
+}
+
+
+/* --------------MAIN---------------------- */
+
+/* ------------SERVICES---------------- */
+.services{
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.camara {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #2D9DC5;
+    --bs-btn-border-color:  #2D9DC5;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #2a91b6;
+    --bs-btn-hover-border-color:#2a91b6;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2a91b6;
+    --bs-btn-active-border-color: #2a91b6;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #2a91b6;
+    --bs-btn-disabled-border-color: #2a91b6;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+}
+.camarasDescription {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #eeeeee;
+    width: 300px;
+    background-color: #2D9DC5;
+}
+
+.camButton{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #2D9DC5;
+    --bs-btn-hover-bg: #2a91b6;
+    --bs-btn-hover-border-color: #2D9DC5;
+    --bs-btn-hover-color: #eeeeee;
+}
+
+.it {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #EC4228;
+    --bs-btn-border-color:  #EC4228;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #d43820;
+    --bs-btn-hover-border-color:#d43820;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d43820;
+    --bs-btn-active-border-color: #d43820;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #d43820;
+    --bs-btn-disabled-border-color: #d43820;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+}
+
+.itDescription {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #fff;
+    width: 300px;
+    background-color: #EC4228;
+}
+.itButton {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #EC4228;
+    --bs-btn-hover-bg: #d43820;
+    --bs-btn-hover-border-color: #EC4228;
+    --bs-btn-hover-color: #eeeeee;
+    
+}
+
+.mPreventivo {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #FFC21F;
+    --bs-btn-border-color:  #FFC21F;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #e6b01c;
+    --bs-btn-hover-border-color:#e6b01c;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #e6b01c;
+    --bs-btn-active-border-color: #e6b01c;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #e6b01c;
+    --bs-btn-disabled-border-color: #e6b01c;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+}
+
+.mPreventivoDescription {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #fff;
+    width: 300px;
+    background-color: #FFC21F;
+}
+.mPreventivoButton {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #FFC21F;
+    --bs-btn-hover-bg: #e6b01c;
+    --bs-btn-hover-border-color: #FFC21F;
+    --bs-btn-hover-color: #eeeeee;
+    
+}
+.infRedes {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #C52178;
+    --bs-btn-border-color:  #C52178;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #b71d6f;
+    --bs-btn-hover-border-color:#b71d6f;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b71d6f;
+    --bs-btn-active-border-color: #b71d6f;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #b71d6f;
+    --bs-btn-disabled-border-color: #b71d6f;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+}
+
+.infRedesDescription {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #fff;
+    width: 300px;
+    background-color: #C52178;
+}
+.infRedesButton {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #C52178;
+    --bs-btn-hover-bg: #b71d6f;
+    --bs-btn-hover-border-color: #C52178;
+    --bs-btn-hover-color: #eeeeee;
+    
+}
+.sAlarmas {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #18A322;
+    --bs-btn-border-color:  #18A322;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #15941e;
+    --bs-btn-hover-border-color:#15941e;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #15941e;
+    --bs-btn-active-border-color: #15941e;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #15941e;
+    --bs-btn-disabled-border-color: #15941e;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+}
+
+.sAlarmasDescription {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #fff;
+    width: 300px;
+    background-color: #18A322;
+}
+.sAlarmasButton {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #18A322;
+    --bs-btn-hover-bg: #15941e;
+    --bs-btn-hover-border-color: #18A322;
+    --bs-btn-hover-color: #eeeeee; 
+}
+.cAcceso {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  #161415;
+    --bs-btn-border-color:  #161415;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #050505;
+    --bs-btn-hover-border-color:#050505;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #050505;
+    --bs-btn-active-border-color: #050505;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #050505;
+    --bs-btn-disabled-border-color: #050505;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+}
+
+.cAccesoDescription {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #fff;
+    width: 300px;
+    background-color: #161415;
+}
+.cAccesoButton {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #161415;
+    --bs-btn-hover-bg: #050505;
+    --bs-btn-hover-border-color: #161415;
+    --bs-btn-hover-color: #eeeeee; 
+}
+.iconServices{
+    margin-right: 10px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* ----------Media Queries--------- */
+
+@media (min-width:1024px) {
+    .mainContainer{
+        margin:auto;
+        width: 100%;
+        padding-top: 120px;
+        /* padding-left: 20%;
+        padding-right:20%; */
+    }
+    .main{
+        margin:auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        gap: 30px;
+    }
+    article{
+        width: 100%;
+    }
+    article h1{
+        color: #fefefe;
+        font-size: 54.74pt;
+        line-height: 52.3pt;
+        font-weight: bold;
+    }
+    article p{
+        width: 100%;
+        margin-top: 30px;
+        color: #fefefe;
+        font-family: "Aileron-Light";
+        font-size: 15.28pt;
+        line-height: 24.7pt;
+        letter-spacing: 0.2pt;
+        
+    }
+    .imgHome{
+        width: 100%;
+    }
+    .imgHome img{  
+        width: 100%;
+        min-width: 500px;
+    }
+
+    /* ------SERVICES------ */
+  
+}    

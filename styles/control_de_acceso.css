@@ -1,0 +1,108 @@
+.mainContainerServices {
+  background-color: #efeeec;
+  width: 100%;
+  padding-bottom: 30px;
+  height: 70vh;
+}
+.mainServices {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgServices {
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+.imgServices img {
+  width: 20%;
+  min-width: 60px;
+}
+.mainServices article {
+  margin: auto;
+  width: 90%;
+}
+
+.mainServices article h1 {
+  font-family: "Aileron-Bold";
+  color: #161415;
+  font-size: 31.39pt;
+  line-height: 31.4pt;
+  margin-top: 20px;
+}
+.mainServices article h2 {
+  font-family: "Aileron-Bold";
+  color: #161415;
+  font-size: 31.39pt;
+  line-height: 31.4pt;
+  margin-top: 20px;
+}
+
+.mainServices article p {
+  color: #161415;
+}
+.mainServices article p .consulta {
+  font-family: "Aileron-Light";
+  text-decoration: none;
+  color: #161415;
+}
+.mainServices article p .consulta:hover {
+  color: #161415;
+}
+.social {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+  .mainContainerServices {
+    height: auto;
+  }
+
+  .mainServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    padding-bottom: 20px;
+  }
+  .imgServices {
+    text-align: right;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .imgServices img {
+    width: 80%;
+    min-width: 400px;
+  }
+  .mainServices article {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .mainServices article h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 31.39pt;
+  }
+  .mainServices article h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mainServices article p {
+    font-size: 12pt;
+    line-height: 19.4pt;
+    margin-bottom: 40px;
+    width: 400px;
+  }
+
+  .footerContainer {
+    padding-top: 25px;
+  }
+}

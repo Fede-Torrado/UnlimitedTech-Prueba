@@ -1,0 +1,20 @@
+path{
+    fill:#EFEFED;
+    color: 1s;
+}
+path:hover{
+    animation: color 3s forwards ease-in-out;
+}
+svg {
+    width: 45px;
+    height: 45px;
+}
+svg:hover {
+    animation: color 1s ease-in-out;
+}
+
+@keyframes color {
+    to{
+        
+    }
+}

@@ -1,0 +1,101 @@
+.mainContainerServices{
+    background-color: #7439D3;
+    width: 100%;   
+    padding-bottom: 30px;
+}
+.mainServices{
+display: flex;
+flex-direction: column;
+}    
+
+.imgServices{
+text-align: center;
+padding-top: 20px;
+width: 100%;
+ 
+}
+.imgServices img{
+width: 80%;
+min-width: 60px;
+max-width: 400px;
+}
+.mainServices article{
+margin: auto;
+width: 90%;
+}
+
+.mainServices article h1{
+  
+font-family: "Aileron-Bold";
+color: #EFEEEC;
+font-size: 38pt;
+line-height: 29pt;
+margin-top: 40px;   
+}
+
+.mainServices article p {
+color: #EFEEEC;
+
+}
+.amarillo{
+    color:#FFC21F;
+}
+.social {
+margin-bottom: 10px;
+}
+
+@media (min-width:1024px) {
+    .mainContainerServices{
+        height: auto;
+    }
+
+.mainServices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+.imgServices{
+    text-align: right;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.imgServices img{
+    width: 80%;
+    max-width: 400px;
+    min-width: 400px;
+}
+.mainServices article{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.mainServices article h1{
+    padding: 0;
+    margin: 0;
+    font-size: 48pt;
+    line-height: 40pt;  
+}
+.mainServices article h2{
+    padding: 0;
+    margin: 0;
+}
+
+.mainServices article p {
+    font-size: 12pt;
+    line-height: 19.4pt;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footerContainer {
+    padding-top: 25px;
+}
+}

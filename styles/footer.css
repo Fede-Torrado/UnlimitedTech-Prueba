@@ -1,0 +1,64 @@
+
+.footerContainer {
+    background-color: #7439D3;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.footerContainer h4 {
+    font-size: 8pt;
+    color: #f2f2f2;
+    font-family: "Aileron";
+    letter-spacing: 0.2pt;
+}
+.right{
+    margin-top: 30px;
+}
+.light {
+    font-family: "Aileron-Light";
+}
+
+.whatsapp{
+    width: 40px;
+    right: 150px;
+    bottom: 90px;
+}    
+.instagram{
+    width: 40px;
+    right: 230px;
+    bottom: 90px;
+}   
+
+
+@media (min-width:1024px) {
+
+.whatsapp:hover{
+    width: 45px;
+  
+    
+}    
+.instagram:hover{
+     width: 45px;
+    
+    
+}
+.social{
+    padding-top: 0px;
+}     
+
+.footerContainer h4 {
+    font-size: 11pt;
+}
+}
+

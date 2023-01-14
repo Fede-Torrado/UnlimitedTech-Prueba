@@ -1,0 +1,160 @@
+.nav-bar{
+    background-color: #6c34c6;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px 25px 40px;
+    color: #fefefe;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.menu, .submenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    background-color: #6c34c6;
+    margin-left: -100%;
+    /* agregado */
+    position: fixed;
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    /* agregado */
+    transition:all 0.5s;
+}
+
+.menu__link{
+    display: block;
+    color: #fefefe;
+    padding: 20px;
+    padding-left: 30px;
+    font-size: 14pt;
+    text-decoration: none;
+
+}
+.menu__link:hover{
+    background-color: #632eb8;
+    color: #fefefe;
+}
+.submenu .menu__link:hover{
+    background-color: #592aa5;
+    color: #fefefe;
+}
+.submenu {
+    /* agregado */
+    width: 100%;
+    /* agregado */
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.submenu .menu__link{
+    background-color: #632eb8;
+    padding-left: 50px;
+}
+.submenu .menu__link:hover{
+    background-color: #592aa5;
+}
+
+/*---HOVER MENU---*/
+.submenu .cam_link:hover{
+    background-color: #2d9dc5;
+}
+.submenu .it_link:hover{
+    background-color: #ec4228;
+}
+.submenu .mantenimiento_link:hover{
+    background-color: #FFC21F;
+}
+.submenu .redes_link:hover{
+    background-color: #C52178;
+}
+.submenu .alarmas_link:hover{
+    background-color: #18A322;
+}
+.submenu .control_link:hover{
+    background-color: #161415;
+}
+/*---HOVER MENU---*/
+
+.mostrar {
+    /* ---Agregado--- */
+    position: fixed;
+    /* ---Agregado--- */
+    opacity: 100;
+    /* ---Agregado--- */
+    margin-left: 0;
+}
+
+/* agregado */
+.isoLogo{
+    display: none;
+}
+
+.icon-menu{
+    width: 30px;
+    margin-right: 10px;
+}
+
+@media (min-width:1024px) {
+    .nav-bar {
+        display: none;
+    }
+    .menu{
+        position:inherit;
+        margin-left: 0;
+        display: flex;
+        /* agregado */
+        height: 100px;
+        top: 0;
+        opacity: 100;
+        justify-content: space-between;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    /* agregado */
+    .options {
+        display: flex;
+        gap: 50px;
+    }
+    /* agregado */
+        .isoLogo{
+        display: block;
+    }
+
+    .container-submenu{
+        position: relative;
+    }
+    .submenu {
+        position: absolute;
+        top: 65px;
+        width: 300px;
+        overflow: visible;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .submenu .menu__link{
+        padding-left: 30px;
+    }
+
+    .container-submenu:hover .submenu {
+        opacity: 1;
+        visibility: visible;
+    }
+    .icon-menu{
+        width: 30px;
+        margin-right: 10px;
+    }
+    .menu__link{
+        font-size: 12pt;
+    }
+}
